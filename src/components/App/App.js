@@ -73,6 +73,12 @@ class App extends React.Component {
             prop: "wheels",
             options: this.selectedModel?.wheels ?? [],
           },
+          {
+            label: "Select wheel size",
+            type: "image",
+            prop: "wheelsizes",
+            options: this.selectedModel?.wheelsize ?? [],
+          },
         ],
       },
       {
@@ -108,6 +114,9 @@ class App extends React.Component {
     const wheelsPrice = this.selectedModel?.wheels?.find(
       wheels => wheels.value === this.state.config?.wheels
     )?.price ?? 0;
+    const wheelsizePrice = this.selectedModel?.wheelsize?.find(
+        wheelsize => wheelsize.value === this.state.config?.wheelsize
+      )?.price ?? 0;
     const interiorColorPrice = this.selectedModel?.interiorColors?.find(
       interiorColor => interiorColor.value === this.state.config?.interior_color
     )?.price ?? 0;

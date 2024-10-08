@@ -46,23 +46,43 @@ export const models = [
     wheels: [
       {
         src: `${process.env.PUBLIC_URL}/wheels/model_ccf/model_ccf_wheel_1.png`,
-        label: "17x8 Hirochi CCF-BA Black Wheels",
+        label: "Hirochi BA Wheels",
         value: "wheel_1",
         price: 0,
       },
       {
         src: `${process.env.PUBLIC_URL}/wheels/model_ccf/model_ccf_wheel_2.png`,
-        label: "17x8 Hirochi CCF-DC Silver Wheels",
+        label: "Hirochi DC Wheels",
         value: "wheel_2",
         price: 4500,
       },
       {
         src: `${process.env.PUBLIC_URL}/wheels/model_ccf/model_ccf_wheel_3.png`,
-        label: "16x8 Hirochi CCF-AA Wheels",
+        label: "Hirochi AA Wheels",
         value: "wheel_3",
         price: 5000,
       },
     ],
+    wheelsize: [
+        {
+          src: `${process.env.PUBLIC_URL}/wheels/model_ccf/model_ccf_wheel_15.png`,
+          label: '15" rims',
+          value: "15",
+          price: 0,
+        },
+        {
+          src: `${process.env.PUBLIC_URL}/wheels/model_ccf/model_ccf_wheel_16.png`,
+          label: '16" rims',
+          value: "16",
+          price: 400,
+        },
+        {
+          src: `${process.env.PUBLIC_URL}/wheels/model_ccf/model_ccf_wheel_17.png`,
+          label: '17" rims',
+          value: "17",
+          price: 600,
+        },
+      ],
     types: [
       {
         label: "F4 6 Speed MT",
@@ -142,17 +162,37 @@ export const models = [
     wheels: [
       {
         src: `${process.env.PUBLIC_URL}/wheels/model_ccf/model_eccf_wheel_1.png`,
-        label: "17x8 Hirochi CCF-EA Diamond Cut Wheels",
+        label: "Hirochi EA Wheels",
         value: "wheel_1",
         price: 0,
       },
       {
         src: `${process.env.PUBLIC_URL}/wheels/model_ccf/model_eccf_wheel_2.png`,
-        label: "17x8 Hirochi CCF-DA Diamond Cut Wheels",
+        label: "Hirochi DA Wheels",
         value: "wheel_2",
         price: 5500,
       },
     ],
+    wheelsize: [
+        {
+          src: `${process.env.PUBLIC_URL}/wheels/model_ccf/model_ccf_wheel_15.png`,
+          label: '15" rims',
+          value: "15",
+          price: 0,
+        },
+        {
+          src: `${process.env.PUBLIC_URL}/wheels/model_ccf/model_ccf_wheel_16.png`,
+          label: '16" rims',
+          value: "16",
+          price: 400,
+        },
+        {
+          src: `${process.env.PUBLIC_URL}/wheels/model_ccf/model_ccf_wheel_17.png`,
+          label: '17" rims',
+          value: "17",
+          price: 600,
+        },
+      ],
     types: [
       {
         label: "Base Motor",
@@ -199,6 +239,7 @@ export const initialConfig = {
     car_type: "f4MT",
     model: "ccf",
     color: "white",
+    wheelsize: "17",
     wheels: "wheel_1",
     interior_color: "abyssblack",
   },
@@ -206,6 +247,7 @@ export const initialConfig = {
     car_type: "Base",
     model: "eccf",
     color: "white",
+    wheelsize: "17",
     wheels: "wheel_1",
     interior_color: "arcticwhite",
   },
@@ -213,6 +255,7 @@ export const initialConfig = {
     car_type: "long_power_plus",
     model: "s",
     color: "white",
+    wheelsize: "17",
     wheels: "wheel_1",
     interior_color: "all_black",
   },
@@ -221,6 +264,7 @@ export const initialConfig = {
     car_type: "long_power_plus",
     model: "x",
     color: "white",
+    wheelsize: "17",
     wheels: "wheel_1",
     interior_color: "all_black",
     interior_layout: "five_seat",
@@ -229,6 +273,7 @@ export const initialConfig = {
     car_type: "long_power",
     model: "y",
     color: "white",
+    wheelsize: "17",
     wheels: "wheel_1",
     interior_color: "all_black",
     interior_layout: "five_seat",
