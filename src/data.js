@@ -35,10 +35,13 @@ export const interiorLayouts = [
   { label: "Seven seat interior", value: "seven_seat", price: 3500 },
 ];
 
+
+
+
 export const models = [
   {
     key: "ccf",
-    name: "CCF",
+    name: "CCF2",
     colors: colors,
     wheels: [
       {
@@ -69,7 +72,7 @@ export const models = [
           top_speed: 209,
           acceleration_time: 6.4,
         },
-        price: 41240,
+        price: 31240,
         benefits: [
           "Advanced Driver Assistance System",
           "Sport Mode",
@@ -85,7 +88,7 @@ export const models = [
           top_speed: 209,
           acceleration_time: 5.8,
         },
-        price: 49520,
+        price: 39520,
         benefits: [
           "Advanced Driver Assistance System",
           "Sport Mode",
@@ -103,7 +106,7 @@ export const models = [
           top_speed: 270,
           acceleration_time: 5.4,
         },
-        price: 52390,
+        price: 42390,
         benefits: [
           "Advanced Driver Assistance System",
           "Sport Mode",
@@ -119,7 +122,7 @@ export const models = [
           top_speed: 270,
           acceleration_time: 5.2,
         },
-        price: 61870,
+        price: 51870,
         benefits: [
           "Advanced Driver Assistance System",
           "Sport Mode",
@@ -159,7 +162,7 @@ export const models = [
           top_speed: 168,
           acceleration_time: 5.9,
         },
-        price: 47280,
+        price: 37280,
         benefits: [
           "Advanced Driver Assistance System",
           "Sport Mode",
@@ -176,7 +179,7 @@ export const models = [
           top_speed: 195,
           acceleration_time: 4.1,
         },
-        price: 52930,
+        price: 42930,
         benefits: [
           "Advanced Driver Assistance System",
           "Sport Mode",

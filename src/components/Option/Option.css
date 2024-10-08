@@ -17,7 +17,10 @@
   border-radius: 25px;
   width: 100%;
   box-sizing: border-box;
-  text-transform: capitalize;
+  font-weight: 100;
+  font-size: 14px;
+  font-family: "Nasalization";
+  /* text-transform: capitalize; */
   transition: all .25s ease-in-out;
 }
 .text-option > span:first-child {

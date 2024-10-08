@@ -27,7 +27,7 @@ const Summary = ({
   return (
     <div className="summary">
       <h1>Your {selectedModel?.name}</h1>
-      <p className="summary-edd">Estimated delivery: 5-9 weeks</p>
+      <p className="summary-edd">Estimated delivery: 3-5 weeks</p>
       <div className="summary-content">
         <p>Summary</p>
         <ul>

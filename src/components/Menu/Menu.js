@@ -31,12 +31,12 @@ class Menu extends React.Component {
     const ModeIcon = this.state.darkMode ? FaSun : FaMoon;
 
     const brandLogo = this.state.darkMode
-      ? `${process.env.PUBLIC_URL}/hirochi2.png`
-      : `${process.env.PUBLIC_URL}/hirochi2.png`;
+      ? `${process.env.PUBLIC_URL}/hirochi.png`
+      : `${process.env.PUBLIC_URL}/hirochi.png`;
 
     return (
       <div className="menu-container">
-        <a href="https://alterclass.io/courses/react" className="logo">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="logo">
           <img src={brandLogo} alt="Hirochi" />
         </a>
         <ul className="menu-nav">
@@ -44,7 +44,7 @@ class Menu extends React.Component {
             <li
               key={item}
               onClick={() => this.props.onSelectItem(i)}
-              className={this.props.selectedItem === i ? 'selected' : null}
+              className={this.props.selectedItem === i ? "selected" : null}
             >
               <h2>{item}</h2>
             </li>

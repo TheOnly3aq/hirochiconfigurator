@@ -12,8 +12,9 @@
 .settings-group > h3 {
   /* text-transform: capitalize; */
   font-weight: 400;
-  font-family: 'Nasalization';
+  font-family: "Nasalization";
   font-size: 24px;
+  font-style: italic;
   margin-top: 0;
   margin-bottom: 16px;
 }
@@ -31,6 +32,7 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .settings-options .settings-options-text {
   flex-wrap: nowrap;
   flex-direction: column;
@@ -66,10 +68,10 @@
   text-align: left;
 }
 .settings-group-benefits > ul > li {
-  margin-bottom: .6em;
+  margin-bottom: 0.6em;
 }
 
-@media(min-width: 992px) {
+@media (min-width: 992px) {
   .settings {
     flex: 1;
     overflow-y: auto;
