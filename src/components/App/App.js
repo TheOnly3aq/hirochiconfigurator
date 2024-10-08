@@ -54,10 +54,8 @@ class App extends React.Component {
             options: this.selectedModel?.types ?? [],
             disclaimer_1:
               "All CCF and eCCF models are equipped with all modern safety features, a premium sound system and a detailed interior design.",
-            disclaimer_2:
-              "7 year warranty included in all models.",
+            disclaimer_2: "7 year warranty included in all models.",
           },
-          
         ],
       },
       {
@@ -167,30 +165,29 @@ class App extends React.Component {
     return (
       <div className="app">
         <Menu
-          items={this.steps.map(step => step.name)}
+          items={this.steps.map((step) => step.name)}
           selectedItem={this.state.currentStep}
           onSelectItem={this.goToStep}
         />
         <main className="app-content">
-          {
-            this.steps[this.state.currentStep]?.name === "interior" ? (
-              <InteriorPreview
-                interior={this.selectedModel?.interiorColors.find(
-                  interiorColor => interiorColor.value === this.state.config.interior_color
-                )}
-              />
-            ) : (
-              <Preview
-                config={this.state.config}
-                models={models}
-                showAllModels={isFirstStep}
-                showSpecs={!isLastStep}
-                onChangeModel={this.handleChangeModel}
-              />
-            )
-          }
-          {
-          isLastStep ? (
+          {this.steps[this.state.currentStep]?.name === "interior" ? (
+            <InteriorPreview
+              interior={this.selectedModel?.interiorColors.find(
+                (interiorColor) =>
+                  interiorColor.value === this.state.config.interior_color
+              )}
+            />
+          ) : (
+            <Preview
+              config={this.state.config}
+              models={models}
+              showAllModels={isFirstStep}
+              showSpecs={!isLastStep}
+              onChangeModel={this.handleChangeModel}
+            />
+          )}
+
+          {isLastStep ? (
             <Summary
               config={this.state.config}
               models={models}
@@ -202,8 +199,7 @@ class App extends React.Component {
               settings={this.steps[this.state.currentStep].settings}
               onSelectOption={this.handleOnSelectOption}
             />
-          )
-        }
+          )}
         </main>
         <Footer
           totalPrice={this.totalPrice}

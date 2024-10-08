@@ -51,6 +51,7 @@
   align-items: center;
   max-width: 75px;
   padding: 6px;
+    font-family: 'Nasalization';
   box-sizing: border-box;
   transition: all .2s ease;
 }

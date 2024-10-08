@@ -31,8 +31,8 @@ class Menu extends React.Component {
     const ModeIcon = this.state.darkMode ? FaSun : FaMoon;
 
     const brandLogo = this.state.darkMode
-      ? `${process.env.PUBLIC_URL}/hirochi.png`
-      : `${process.env.PUBLIC_URL}/hirochi.png`;
+      ? `${process.env.PUBLIC_URL}/hirochi2.png`
+      : `${process.env.PUBLIC_URL}/hirochi2.png`;
 
     return (
       <div className="menu-container">
