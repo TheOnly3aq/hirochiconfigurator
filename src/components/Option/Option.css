@@ -19,13 +19,15 @@
   box-sizing: border-box;
   font-weight: 100;
   font-size: 14px;
-  font-family: "Nasalization";
+  /* font-family: "Nasalization"; */
   /* text-transform: capitalize; */
   transition: all .25s ease-in-out;
 }
 .text-option > span:first-child {
   overflow: hidden;
   white-space: nowrap;
+    font-family: "Nasalization";
+
   text-overflow: ellipsis;
 }
 .text-option.active {
