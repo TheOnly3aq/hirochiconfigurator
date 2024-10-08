@@ -1,9 +1,21 @@
 export const colors = [
-  { label: "Pearl White Multi-Coat", value: "white", price: 0 },
-  { label: "Solid Black", value: "black", price: 1500 },
-  { label: "Midnight Silver Metallic", value: "silver", price: 1500 },
-  { label: "Deep Blue Metallic", value: "blue", price: 1500 },
-  { label: "Red Multi-Coat", value: "red", price: 2500 }
+  { label: "Arctic", value: "white", price: 0 },
+  { label: "Abyss Ultragloss", value: "black", price: 1500 },
+  { label: "Flora Green  Metallic", value: "floragreen", price: 1000 },
+  { label: "Procyon Sirus Grey", value: "silver", price: 1500 },
+  { label: "Supernova Metallic", value: "supernova", price: 1500 },
+  { label: "Memphis Metallic", value: "memphis", price: 1500 },
+  { label: "Chromosphere Metallic", value: "chromosphere", price: 1500 },
+  { label: "Quicksilver Metallic", value: "quicksilver", price: 1500 },
+  { label: "Deep Space Metallic", value: "blue", price: 1500 },
+  { label: "Ruby Stone Metallic", value: "red", price: 2500 },
+];
+export const eccfcolors = [
+  { label: "Arctic", value: "white", price: 0 },
+  { label: "Abyss Ultragloss", value: "black", price: 1500 },
+  { label: "Procyon Dark Matter", value: "silver", price: 1500 },
+  { label: "Skyline", value: "blue", price: 1500 },
+  { label: "Ruby Stone Metallic", value: "red", price: 2500 },
 ];
 
 export const interiorColors = [
@@ -40,6 +52,12 @@ export const models = [
         label: "17x8 Hirochi CCF-DC Silver Wheels",
         value: "wheel_2",
         price: 4500,
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/wheels/model_ccf/model_ccf_wheel_3.png`,
+        label: "16x8 Hirochi CCF-AA Wheels",
+        value: "wheel_3",
+        price: 5000,
       },
     ],
     types: [
@@ -117,7 +135,7 @@ export const models = [
   {
     key: "eccf",
     name: "eCCF",
-    colors: colors,
+    colors: eccfcolors,
     wheels: [
       {
         src: `${process.env.PUBLIC_URL}/wheels/model_ccf/model_eccf_wheel_1.png`,
