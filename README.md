@@ -5,9 +5,10 @@
 
 
 # HIROCHICONFIGURATOR
+![Preview image](/public/hirochi_banner.png)
+
 
 <em>Customize Your Dream Car, Effortlessly and Visually</em>
-![Preview image](/public/hirochi_banner.png)
 
 <!-- BADGES -->
 <img src="https://img.shields.io/github/last-commit/TheOnly3aq/hirochiconfigurator?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
