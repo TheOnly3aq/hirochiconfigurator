@@ -35,13 +35,12 @@
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
     - [Usage](#usage)
-    - [Testing](#testing)
 
 ---
 
 ## Overview
 
-Hirochi Car Configurator is a powerful React-based tool designed to simplify the vehicle customization process for automotive enthusiasts. 
+Hirochi Car Configurator is a powerful React-based that helps you create your dream Hirochi CCF!  
 
 **Why Hirochi Car Configurator?**
 
@@ -98,15 +97,8 @@ Run the project with:
 npm start
 ```
 
-### Testing
 
-Hirochiconfigurator uses the {__test_framework__} test framework. Run the test suite with:
-
-**Using [npm](https://www.npmjs.com/):**
-
-```sh
-npm test
-```
+All credits for the car go to [Theo Wilkinson](https://www.beamng.com/resources/authors/theo-wilkinson.372943/)
 
 ---
 
