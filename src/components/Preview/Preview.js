@@ -24,7 +24,7 @@ class Preview extends React.Component {
   get items() {
     return this.props.models.map(model => ({
       alt: model.name,
-      url: `${process.env.PUBLIC_URL}/cars/model_${model.key}/model_${model.key}_${this.props.config.color}_${this.props.config.wheels}.png`,
+      url: `${process.env.PUBLIC_URL}/cars/model_${model.key}/model_${model.key}_${this.props.config.color}_${this.props.config.wheels}.webp`,
       scale: ['x'].includes(model.key)
     }));
   };
